@@ -15,14 +15,14 @@ public class Order {
      );
      */
     private int id;      //id->order_id
-    private String no;  //orderNo->order_no
+    private String orderNo;  //orderNo->order_no
     private float price;     //price->order_price
 
     public Order(){}
 
     public Order(int id, String orderNo, float price) {
         this.id = id;
-        this.no = orderNo;
+        this.orderNo = orderNo;
         this.price = price;
     }
 
@@ -35,11 +35,11 @@ public class Order {
     }
 
     public String getOrderNo() {
-        return no;
+        return orderNo;
     }
 
     public void setOrderNo(String no) {
-        this.no = no;
+        this.orderNo = no;
     }
 
     public float getPrice() {
@@ -54,7 +54,7 @@ public class Order {
     public String toString() {
         return "Order{" +
                 "id=" + id +
-                ", orderNo='" + no + '\'' +
+                ", orderNo='" + orderNo + '\'' +
                 ", price=" + price +
                 '}';
     }

@@ -15,7 +15,7 @@
        这是因为我们将查询的字段名都起一个和实体类属性名相同的别名，这样实体类的属性名和查询结果中的字段名就可以一一对应了
     -->
     <select id="selectOrder" parameterType="int" resultType="domain.Order">
-        select order_id id,order_no no,order_price price price from orders where order_id=#{id}
+        select order_id id,order_no orderNo,order_price price from orders where order_id=#{id}
     </select>
 
     <!--
@@ -30,7 +30,7 @@
         <!--用id属性来映射主键字段-->
         <id property="id" column="order_id"/>
         <!--用result属性来映射非主键字段-->
-        <result property="no" column="order_no"/>
+        <result property="orderNo" column="order_no"/>
         <result property="price" column="order_price"/>
     </resultMap>
 </mapper>

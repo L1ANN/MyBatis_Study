@@ -1,5 +1,7 @@
 package domain;
 
+import java.util.List;
+
 /**
  * @Author:L1ANN
  * @Description:
@@ -10,6 +12,7 @@ public class User {
     private int id;
     private String name;
     private int age;
+    private List<Integer> ids;
 
     public User(){}
 
@@ -43,12 +46,21 @@ public class User {
         this.age = age;
     }
 
+    public List<Integer> getIds() {
+        return ids;
+    }
+
+    public void setIds(List<Integer> ids) {
+        this.ids = ids;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", ids=" + ids +
                 '}';
     }
 }

@@ -38,7 +38,7 @@ public class MyBatis_Test {
          */
         String statement = "mapping.userMapper.getUser";
         //执行查询返回一个唯一user对象的sql
-        User user = session.selectOne(statement,3);
+        User user = session.selectOne(statement,2);
         System.out.println(user);
 
     }

@@ -1,10 +1,12 @@
 package test;
 
 import domain.User;
+import mapping.userMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
 import util.MyBatisUtil;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -76,5 +78,93 @@ public class TestCRUDByXmlMapper {
         //使用SqlSession执行完SQL之后需要关闭SqlSession
         sqlSession.close();
         System.out.println(lstUsers);
+    }
+
+    /**
+     * 测试动态SQL语句
+     */
+    @Test
+    public void testfindUserList(){
+        SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+        String statement = "mapping.userMapper.findUserList";
+        User user = new User();
+        user.setName("l");
+        user.setAge(23);
+        List<User> users = sqlSession.selectList(statement,user);
+        sqlSession.close();
+        System.out.println(users);
+    }
+
+    /**
+     * 测试动态SQL语句
+     */
+    @Test
+    public void testfindUserCount(){
+        SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+        String statement = "mapping.userMapper.findUserCount";
+        User user = new User();
+        user.setName("l");
+        user.setAge(23);
+        int count = sqlSession.selectOne(statement,user);
+        sqlSession.close();
+        System.out.println("总记录数："+count);
+    }
+
+    /**
+     * 测试动态SQL语句
+     */
+    @Test
+    public void testfindUserList1(){
+        SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+        String statement = "mapping.userMapper.findUserList1";
+        User user = new User();
+        user.setName("l");
+        user.setAge(23);
+        List<Integer> ids = new ArrayList<>();
+        ids.add(1);
+        ids.add(5);
+        user.setIds(ids);
+        List<User> users = sqlSession.selectList(statement,user);
+        sqlSession.close();
+        System.out.println(users);
+    }
+
+    /**
+     * 测试Mapper动态代理实现DAO层
+     * @throws Exception
+     */
+    @Test
+    public void testMapper_GetUser() throws Exception{
+        //通过SqlSessionFacotry获取SqlSession对象
+        SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+        //通过sqlSession创建userMapper接口类的代理对象（实体类）赋给usermapper
+        userMapper usermapper = sqlSession.getMapper(userMapper.class);
+        //调用usermapper的方法体获取User
+        User user = usermapper.getUser(2);
+        //关闭SqlSession
+        sqlSession.close();
+        System.out.println(user);
+    }
+
+    /**
+     * 测试Mapper动态代理实现DAO层
+     * @throws Exception
+     */
+    @Test
+    public void testMapper_GetUserList() throws Exception{
+        SqlSession sqlSession  = MyBatisUtil.getSqlSession(true);
+        userMapper usermapper = sqlSession.getMapper(userMapper.class);
+        User user = new User();
+        user.setName("l");
+        user.setAge(23);
+        List<Integer> ids = new ArrayList<>();
+        ids.add(1);
+        ids.add(5);
+        user.setIds(ids);
+
+        List<User> users = usermapper.findUserList(user);
+        sqlSession.close();
+        System.out.println(users);
+
     }
 }
