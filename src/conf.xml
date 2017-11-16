@@ -13,7 +13,7 @@
 
     <!--为实体类定义别名，定义别名必须放在environments之前，properties之后-->
     <typeAliases>
-        <typeAlias type="domain.User" alias="User"/>
+        <package name="domain"></package>
     </typeAliases>
 
     <!--

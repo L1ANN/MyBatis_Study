@@ -1,6 +1,7 @@
 package test;
 
 import domain.User;
+import domain.UserQueryVo;
 import mapping.userMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
@@ -117,14 +118,16 @@ public class TestCRUDByXmlMapper {
     public void testfindUserList1(){
         SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
         String statement = "mapping.userMapper.findUserList1";
+        UserQueryVo userQueryVo = new UserQueryVo();
         User user = new User();
         user.setName("l");
         user.setAge(23);
+        userQueryVo.setUser(user);
         List<Integer> ids = new ArrayList<>();
         ids.add(1);
         ids.add(5);
-        user.setIds(ids);
-        List<User> users = sqlSession.selectList(statement,user);
+        userQueryVo.setIds(ids);
+        List<User> users = sqlSession.selectList(statement,userQueryVo);
         sqlSession.close();
         System.out.println(users);
     }
@@ -154,15 +157,17 @@ public class TestCRUDByXmlMapper {
     public void testMapper_GetUserList() throws Exception{
         SqlSession sqlSession  = MyBatisUtil.getSqlSession(true);
         userMapper usermapper = sqlSession.getMapper(userMapper.class);
+        UserQueryVo userQueryVo = new UserQueryVo();
         User user = new User();
         user.setName("l");
         user.setAge(23);
+        userQueryVo.setUser(user);
         List<Integer> ids = new ArrayList<>();
         ids.add(1);
         ids.add(5);
-        user.setIds(ids);
+        userQueryVo.setIds(ids);
 
-        List<User> users = usermapper.findUserList(user);
+        List<User> users = usermapper.findUserList1(userQueryVo);
         sqlSession.close();
         System.out.println(users);
 

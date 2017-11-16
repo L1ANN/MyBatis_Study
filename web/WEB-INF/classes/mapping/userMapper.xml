@@ -39,6 +39,9 @@
     </select>
 
     <!--
+       MyBatis调用存储过程
+    -->
+    <!--
        查询得到男性或女性的数量，如果传入的是0就女性否则男性
     -->
     <select id="getUserCount" parameterMap="getUserCountMap" statementType="CALLABLE">
@@ -49,6 +52,9 @@
         <parameter property="usercount" mode="OUT" jdbcType="INTEGER"/>
     </parameterMap>
 
+    <!--
+       MyBatis动态SQL
+    -->
     <sql id="query_user_where">
         <if test="name!=null and name!=''">
             and NAME like '%${name}%'
@@ -88,17 +94,17 @@
         </trim>
     </select>
 
-    <select id="findUserList1" parameterType="User" resultType="User">
+    <select id="findUserList1" parameterType="UserQueryVo" resultType="User">
         select * from users
         <!--where标签相当于where关键字，可以自动的去除后面的第一个and-->
         <where>
             <!--如果User中传入name查询条件，则进行sql拼接-->
-            <if test="name!=null and name!=''">
-                NAME like '%${name}%'
+            <if test="user.name!=null and user.name!=''">
+                NAME like '%${user.name}%'
             </if>
             <!--如果User中传入age查询条件，则进行sql拼接-->
-            <if test="age!=null and age!=''">
-                and age = #{age}
+            <if test="user.age!=null and user.age!=''">
+                and age = #{user.age}
             </if>
 
             <!--根据id集合查询用户信息-->

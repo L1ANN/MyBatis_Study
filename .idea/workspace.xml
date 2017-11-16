@@ -6,29 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fa1156-a74a-4631-9645-1e701aec3f43" name="Default" comment="MyBatis学习&#10;1、MyBatis开发DAO层&#10;2、MyBatis动态SQL语句&#10;3、MyBatis调用存储过程&#10;4、">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.9.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.9.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domain/Classes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domain/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domain/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapping/classMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapping/userMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TestOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TestProcedure.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.1.1.jar" afterPath="" />
+    <list default="true" id="59fa1156-a74a-4631-9645-1e701aec3f43" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GeneratorSqlmap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domain/UserQueryVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapping/ItemsMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapping/ItemsMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pojo/Items.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pojo/ItemsExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/domain/User.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/domain/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/test/MyBatis_Test.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/test/MyBatis_Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/conf.xml" afterPath="$PROJECT_DIR$/src/conf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.properties" afterPath="$PROJECT_DIR$/src/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domain/Order.java" afterPath="$PROJECT_DIR$/src/domain/Order.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domain/User.java" afterPath="$PROJECT_DIR$/src/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mapping/orderMapper.xml" afterPath="$PROJECT_DIR$/src/mapping/orderMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mapping/userMapper.java" afterPath="$PROJECT_DIR$/src/mapping/userMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mapping/userMapper.xml" afterPath="$PROJECT_DIR$/src/mapping/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/MyBatis_Test.java" afterPath="$PROJECT_DIR$/src/test/MyBatis_Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java" afterPath="$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/conf.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/conf.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapping/userMapper.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapping/userMapper.xml" />
@@ -43,57 +35,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mapping/userMapper.xml">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-              <folding>
-                <marker date="1510062917444" expanded="true" signature="850:886" ph="select * fro... users" />
-                <marker date="1510062917444" expanded="true" signature="973:1023" ph="insert into users... " />
-                <marker date="1510062917444" expanded="true" signature="1112:1144" ph="delete from " />
-                <marker date="1510062917444" expanded="true" signature="1234:1289" ph="update users... " />
-                <marker date="1510062917444" expanded="true" signature="1379:1398" ph="select * fro... users" />
-                <marker date="1510062917444" expanded="true" signature="2312:2331" ph="select * fro... users" />
-                <marker date="1510062917444" expanded="true" signature="2312:2342" ph="select * fro... users" />
-                <marker date="1510062917444" expanded="true" signature="2871:2897" ph="select count... users" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCRUDByXmlMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java">
+      <file leaf-file-name="GeneratorSqlmap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#517#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestProcedure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestProcedure.java">
+      <file leaf-file-name="ItemsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapping/ItemsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="-72">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapping/ItemsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4537">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1510815823300" expanded="true" signature="4117:4265" ph="select , fro... " />
+                <marker date="1510815823300" expanded="true" signature="4351:4406" ph="delete from " />
+                <marker date="1510815823300" expanded="true" signature="4489:4506" ph="delete from " />
+                <marker date="1510815823300" expanded="true" signature="4665:4930" ph="insert into items... " />
+                <marker date="1510815823300" expanded="true" signature="6101:6127" ph="select count... items" />
+                <marker date="1510815823300" expanded="true" signature="7119:7423" ph="update items... " />
+                <marker date="1510815823300" expanded="true" signature="7594:7844" ph="update items... " />
+                <marker date="1510815823300" expanded="true" signature="8034:8552" ph="update items... " />
+                <marker date="1510815823300" expanded="true" signature="8640:8905" ph="update items... " />
+                <marker date="1510815823300" expanded="true" signature="8984:9202" ph="update items... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyBatisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/MyBatisUtil.java">
+      <file leaf-file-name="ItemsExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pojo/ItemsExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Items.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pojo/Items.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +114,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,10 +150,13 @@
         <option value="$PROJECT_DIR$/src/log4.xml" />
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/conf.xml" />
-        <option value="$PROJECT_DIR$/src/mapping/userMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java" />
+        <option value="$PROJECT_DIR$/src/domain/UserQueryVo.java" />
         <option value="$PROJECT_DIR$/src/mapping/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/mapping/userMapper.java" />
+        <option value="$PROJECT_DIR$/src/conf.xml" />
+        <option value="$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java" />
+        <option value="$PROJECT_DIR$/src/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/Generator.java" />
       </list>
     </option>
   </component>
@@ -160,8 +174,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="89" />
+    <option name="x" value="217" />
+    <option name="y" value="76" />
     <option name="width" value="1544" />
     <option name="height" value="991" />
   </component>
@@ -184,7 +198,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +222,12 @@
               <item name="MyBatis_Study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis_Study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatis_Study" type="b2602c69:ProjectViewProjectNode" />
@@ -243,8 +263,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,10 +277,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Git\MyBatis_Study\web\WEB-INF\lib" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git\MyBatis_Study\web\WEB-INF\lib" />
     </key>
   </component>
@@ -276,7 +296,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCRUDByXmlMapper.testMapper_GetUserList">
+  <component name="RunManager" selected="Application.GeneratorSqlmap">
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GeneratorSqlmap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MyBatis_Study" />
+      <envs />
+    </configuration>
     <configuration name="MyBatis_Test" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="test.MyBatis_Test" />
@@ -354,31 +388,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestCRUDByXmlMapper" />
       <option name="METHOD_NAME" value="testfindUserCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestCRUDByXmlMapper.testfindUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MyBatis_Study" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestCRUDByXmlMapper" />
-      <option name="METHOD_NAME" value="testfindUserList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -575,19 +584,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.MyBatis_Test" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserCount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList1" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUser" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUserList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserCount" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUser" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUserList" />
+      <item index="6" class="java.lang.String" itemvalue="Application.GeneratorSqlmap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUserList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserCount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GeneratorSqlmap" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUserList" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserList1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testMapper_GetUser" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCRUDByXmlMapper.testfindUserCount" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +620,11 @@
       <workItem from="1509535430162" duration="11827000" />
       <workItem from="1509977969939" duration="2575000" />
       <workItem from="1510023207925" duration="13709000" />
-      <workItem from="1510049544339" duration="5988000" />
+      <workItem from="1510049544339" duration="6642000" />
+      <workItem from="1510113455390" duration="462000" />
+      <workItem from="1510208465356" duration="38000" />
+      <workItem from="1510209832657" duration="7088000" />
+      <workItem from="1510812906481" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis学习&#10;1、MyBatis快速入门&#10;2、MyBatis对表执行CRUD操作——XML和映射接口&#10;3、优化MyBatis配置文件中的配置&#10;4、解决字段名和实体类属性名不相同的冲突">
       <created>1509463829010</created>
@@ -620,24 +633,25 @@
       <option name="project" value="LOCAL" />
       <updated>1509463829011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyBatis学习&#10;1、MyBatis开发DAO层&#10;2、MyBatis动态SQL语句&#10;3、MyBatis调用存储过程&#10;4、控制台打印SQL语句">
+      <created>1510062947137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510062947137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCRUDByXmlMapper_testMapper_GetUser - 2017.11.07 at 21h 30m 20s.xml">
-      <configuration name="TestCRUDByXmlMapper.testMapper_GetUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCRUDByXmlMapper_testMapper_GetUserList - 2017.11.07 at 21h 33m 32s.xml">
+    <history-entry file="TestCRUDByXmlMapper_testMapper_GetUserList - 2017.11.09 at 17h 37m 00s.xml">
       <configuration name="TestCRUDByXmlMapper.testMapper_GetUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCRUDByXmlMapper_testfindUserCount - 2017.11.07 at 17h 36m 20s.xml">
-      <configuration name="TestCRUDByXmlMapper.testfindUserCount" configurationId="JUnit" />
+    <history-entry file="TestCRUDByXmlMapper_testMapper_GetUserList - 2017.11.09 at 17h 38m 23s.xml">
+      <configuration name="TestCRUDByXmlMapper.testMapper_GetUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCRUDByXmlMapper_testfindUserList - 2017.11.07 at 16h 26m 42s.xml">
-      <configuration name="TestCRUDByXmlMapper.testfindUserList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCRUDByXmlMapper_testfindUserList - 2017.11.07 at 16h 30m 35s.xml">
-      <configuration name="TestCRUDByXmlMapper.testfindUserList" configurationId="JUnit" />
+    <history-entry file="TestCRUDByXmlMapper_testMapper_GetUserList - 2017.11.09 at 17h 47m 01s.xml">
+      <configuration name="TestCRUDByXmlMapper.testMapper_GetUserList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCRUDByXmlMapper_testfindUserList - 2017.11.07 at 16h 42m 36s.xml">
       <configuration name="TestCRUDByXmlMapper.testfindUserList" configurationId="JUnit" />
@@ -654,38 +668,48 @@
     <history-entry file="TestCRUDByXmlMapper_testfindUserList1 - 2017.11.07 at 17h 25m 53s.xml">
       <configuration name="TestCRUDByXmlMapper.testfindUserList1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCRUDByXmlMapper_testfindUserList1 - 2017.11.09 at 17h 39m 03s.xml">
+      <configuration name="TestCRUDByXmlMapper.testfindUserList1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCRUDByXmlMapper_testfindUserList1 - 2017.11.09 at 17h 46m 33s.xml">
+      <configuration name="TestCRUDByXmlMapper.testfindUserList1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52575000" />
+    <option name="totallyTimeSpent" value="63428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="89" width="1544" height="991" extended-state="0" />
+    <frame x="217" y="76" width="1544" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739422" sideWeight="0.44633508" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452116" sideWeight="0.39397904" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35347778" sideWeight="0.6060209" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18651833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.4947644" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30444697" sideWeight="0.44633508" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35347778" sideWeight="0.6060209" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18651833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.4947644" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,7 +722,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452116" sideWeight="0.39397904" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452116" sideWeight="0.39397904" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -710,14 +734,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.4947644" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739422" sideWeight="0.44633508" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.327252" sideWeight="0.44633508" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452116" sideWeight="0.6060209" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35347778" sideWeight="0.6060209" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18651833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -734,85 +758,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MyBatis学习&#10;1、MyBatis快速入门&#10;2、MyBatis对表执行CRUD操作——XML和映射接口&#10;3、优化MyBatis配置文件中的配置&#10;4、解决字段名和实体类属性名不相同的冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis学习&#10;1、MyBatis快速入门&#10;2、MyBatis对表执行CRUD操作——XML和映射接口&#10;3、优化MyBatis配置文件中的配置&#10;4、解决字段名和实体类属性名不相同的冲突" />
+    <MESSAGE value="MyBatis学习&#10;1、MyBatis开发DAO层&#10;2、MyBatis动态SQL语句&#10;3、MyBatis调用存储过程&#10;4、控制台打印SQL语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBatis学习&#10;1、MyBatis开发DAO层&#10;2、MyBatis动态SQL语句&#10;3、MyBatis调用存储过程&#10;4、控制台打印SQL语句" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domain/Classes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#859#860#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#970#971#0" expanded="false" />
-            <element signature="e#1025#1026#0" expanded="false" />
-            <element signature="e#1065#1066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestCRUDByAnnotationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="80" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MyBatis_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapping/UserMapperI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -825,14 +780,14 @@
         <state relative-caret-position="589">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <marker date="1510062917444" expanded="true" signature="850:886" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="973:1023" ph="insert into users... " />
-            <marker date="1510062917444" expanded="true" signature="1112:1144" ph="delete from " />
-            <marker date="1510062917444" expanded="true" signature="1234:1289" ph="update users... " />
-            <marker date="1510062917444" expanded="true" signature="1379:1398" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2331" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2342" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2871:2897" ph="select count... users" />
+            <marker date="1510220080119" expanded="true" signature="850:886" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="973:1023" ph="insert into users... " />
+            <marker date="1510220080119" expanded="true" signature="1112:1144" ph="delete from " />
+            <marker date="1510220080119" expanded="true" signature="1234:1289" ph="update users... " />
+            <marker date="1510220080119" expanded="true" signature="1379:1398" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2331" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2342" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2871:2897" ph="select count... users" />
           </folding>
         </state>
       </provider>
@@ -869,7 +824,7 @@
         <state relative-caret-position="665">
           <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -887,14 +842,14 @@
         <state relative-caret-position="456">
           <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <marker date="1510062917444" expanded="true" signature="850:886" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="973:1023" ph="insert into users... " />
-            <marker date="1510062917444" expanded="true" signature="1112:1144" ph="delete from " />
-            <marker date="1510062917444" expanded="true" signature="1234:1289" ph="update users... " />
-            <marker date="1510062917444" expanded="true" signature="1379:1398" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2331" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2342" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2871:2897" ph="select count... users" />
+            <marker date="1510220080119" expanded="true" signature="850:886" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="973:1023" ph="insert into users... " />
+            <marker date="1510220080119" expanded="true" signature="1112:1144" ph="delete from " />
+            <marker date="1510220080119" expanded="true" signature="1234:1289" ph="update users... " />
+            <marker date="1510220080119" expanded="true" signature="1379:1398" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2331" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2342" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2871:2897" ph="select count... users" />
           </folding>
         </state>
       </provider>
@@ -922,7 +877,7 @@
         <state relative-caret-position="665">
           <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,14 +895,14 @@
         <state relative-caret-position="456">
           <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <marker date="1510062917444" expanded="true" signature="850:886" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="973:1023" ph="insert into users... " />
-            <marker date="1510062917444" expanded="true" signature="1112:1144" ph="delete from " />
-            <marker date="1510062917444" expanded="true" signature="1234:1289" ph="update users... " />
-            <marker date="1510062917444" expanded="true" signature="1379:1398" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2331" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2342" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2871:2897" ph="select count... users" />
+            <marker date="1510220080119" expanded="true" signature="850:886" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="973:1023" ph="insert into users... " />
+            <marker date="1510220080119" expanded="true" signature="1112:1144" ph="delete from " />
+            <marker date="1510220080119" expanded="true" signature="1234:1289" ph="update users... " />
+            <marker date="1510220080119" expanded="true" signature="1379:1398" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2331" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2342" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2871:2897" ph="select count... users" />
           </folding>
         </state>
       </provider>
@@ -1011,7 +966,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,7 +1009,7 @@
         <state relative-caret-position="608">
           <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,7 +1019,7 @@
         <state relative-caret-position="578">
           <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,26 +1029,13 @@
         <state relative-caret-position="266">
           <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/log4.properties" />
     <entry file="file://$PROJECT_DIR$/src/log4.xml" />
-    <entry file="file://$PROJECT_DIR$/src/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapping/classMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
@@ -1110,14 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="38" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapping/UserMapperI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1126,48 +1060,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/MyBatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="304">
           <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapping/userMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestProcedure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/UserQueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#244#245#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#309#310#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapping/userMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestCRUDByXmlMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="2850">
+          <caret line="158" column="18" lean-forward="false" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1176,17 +1133,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapping/userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
-            <marker date="1510062917444" expanded="true" signature="850:886" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="973:1023" ph="insert into users... " />
-            <marker date="1510062917444" expanded="true" signature="1112:1144" ph="delete from " />
-            <marker date="1510062917444" expanded="true" signature="1234:1289" ph="update users... " />
-            <marker date="1510062917444" expanded="true" signature="1379:1398" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2331" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2312:2342" ph="select * fro... users" />
-            <marker date="1510062917444" expanded="true" signature="2871:2897" ph="select count... users" />
+            <marker date="1510220080119" expanded="true" signature="850:886" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="973:1023" ph="insert into users... " />
+            <marker date="1510220080119" expanded="true" signature="1112:1144" ph="delete from " />
+            <marker date="1510220080119" expanded="true" signature="1234:1289" ph="update users... " />
+            <marker date="1510220080119" expanded="true" signature="1379:1398" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2331" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2312:2342" ph="select * fro... users" />
+            <marker date="1510220080119" expanded="true" signature="2871:2897" ph="select count... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapping/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapping/ItemsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4537">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510815823300" expanded="true" signature="4117:4265" ph="select , fro... " />
+            <marker date="1510815823300" expanded="true" signature="4351:4406" ph="delete from " />
+            <marker date="1510815823300" expanded="true" signature="4489:4506" ph="delete from " />
+            <marker date="1510815823300" expanded="true" signature="4665:4930" ph="insert into items... " />
+            <marker date="1510815823300" expanded="true" signature="6101:6127" ph="select count... items" />
+            <marker date="1510815823300" expanded="true" signature="7119:7423" ph="update items... " />
+            <marker date="1510815823300" expanded="true" signature="7594:7844" ph="update items... " />
+            <marker date="1510815823300" expanded="true" signature="8034:8552" ph="update items... " />
+            <marker date="1510815823300" expanded="true" signature="8640:8905" ph="update items... " />
+            <marker date="1510815823300" expanded="true" signature="8984:9202" ph="update items... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/ItemsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#525#0" expanded="true" />
           </folding>
         </state>
       </provider>
